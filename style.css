@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    z-index: 99;
+}
+body{
+    padding-top: 8em;
+}
+.sliderFade{
+    animation: fade 0,5s ease;
+}
+
+.sliderThumd , .sliderMainImage{
+    cursor:pointer;
+}
+
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+    }
+    
+}
